@@ -69,7 +69,7 @@ window.addEventListener('scroll', highlightNavLink);
 // ============================
 const typingElement = document.getElementById('typingText');
 const titles = [
-  'Principal Software Engineer',
+  'Principal Specialist, IT Development',
   'Java & Spring Boot Expert',
   'Microservices Architect',
   'Cloud & AWS Specialist',
