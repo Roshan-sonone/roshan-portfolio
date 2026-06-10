@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Roshan Sonone — Principal Software Engineer specializing in Java, Spring Boot, Microservices, and Cloud Architecture with 6.7+ years of experience.">
+  <meta name="keywords" content="Roshan Sonone, Software Engineer, Java, Spring Boot, Microservices, AWS, Portfolio">
+  <meta name="author" content="Roshan Sonone">
+  <title>Roshan Sonone — Principal Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-gradient-orbs" aria-hidden="true"></div>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">RS<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#ai-tools" class="nav-link">AI Tools</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          Available for opportunities
+        </div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">
+          Roshan<br>
+          <span class="gradient-text">Sonone</span>
+        </h1>
+        <p class="hero-title">
+          <span class="typing-text" id="typingText"></span>
+        </p>
+        <p class="hero-description">
+          Result-oriented Principal Software Engineer with 6.7+ years of experience designing and delivering scalable, high-performance backend systems using Java, Spring Boot, and AWS.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Get In Touch
+          </a>
+          <a href="#experience" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            View Experience
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-value" data-count="6.7">0</div>
+            <div class="hero-stat-label">Years Exp</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" data-count="7">0</div>
+            <div class="hero-stat-label">Microservices</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" data-count="99">0</div>
+            <div class="hero-stat-label">% Uptime</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-avatar-wrapper">
+          <div class="hero-avatar-ring"></div>
+          <div class="hero-avatar">
+            <!-- SVG Avatar -->
+            <svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#0f172a"/>
+                  <stop offset="100%" style="stop-color:#1e293b"/>
+                </linearGradient>
+                <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#38bdf8"/>
+                  <stop offset="100%" style="stop-color:#818cf8"/>
+                </linearGradient>
+                <linearGradient id="circuitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:0.3"/>
+                  <stop offset="100%" style="stop-color:#818cf8;stop-opacity:0.1"/>
+                </linearGradient>
+              </defs>
+              <!-- Background -->
+              <rect width="340" height="340" fill="url(#avatarGrad)" rx="170"/>
+              <!-- Circuit pattern -->
+              <g stroke="url(#circuitGrad)" stroke-width="1" fill="none" opacity="0.5">
+                <path d="M50 170 L120 170 L120 100 L170 100"/>
+                <path d="M170 100 L170 50"/>
+                <path d="M290 170 L220 170 L220 240 L170 240"/>
+                <path d="M170 240 L170 290"/>
+                <path d="M80 80 L130 80 L130 130"/>
+                <path d="M260 260 L210 260 L210 210"/>
+                <path d="M50 250 L100 250 L100 200 L150 200"/>
+                <path d="M290 90 L240 90 L240 140 L190 140"/>
+                <circle cx="170" cy="50" r="3" fill="#38bdf8"/>
+                <circle cx="170" cy="290" r="3" fill="#818cf8"/>
+                <circle cx="50" cy="170" r="3" fill="#38bdf8"/>
+                <circle cx="290" cy="170" r="3" fill="#818cf8"/>
+                <circle cx="130" cy="130" r="2" fill="#38bdf8"/>
+                <circle cx="210" cy="210" r="2" fill="#818cf8"/>
+                <circle cx="150" cy="200" r="2" fill="#38bdf8"/>
+                <circle cx="190" cy="140" r="2" fill="#818cf8"/>
+              </g>
+              <!-- Central circle -->
+              <circle cx="170" cy="145" r="55" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
+              <circle cx="170" cy="145" r="45" fill="none" stroke="url(#accentGrad)" stroke-width="1" opacity="0.3"/>
+              <!-- Person silhouette -->
+              <circle cx="170" cy="125" r="28" fill="url(#accentGrad)" opacity="0.8"/>
+              <path d="M120 210 C120 175 135 160 170 160 C205 160 220 175 220 210" fill="url(#accentGrad)" opacity="0.6"/>
+              <!-- Code brackets -->
+              <text x="85" y="180" font-family="JetBrains Mono, monospace" font-size="40" fill="#38bdf8" opacity="0.7">{</text>
+              <text x="235" y="180" font-family="JetBrains Mono, monospace" font-size="40" fill="#818cf8" opacity="0.7">}</text>
+              <!-- Bottom text -->
+              <text x="170" y="280" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#64748b" letter-spacing="4">PRINCIPAL ENGINEER</text>
+            </svg>
+          </div>
+          <!-- Floating tech icons -->
+          <div class="floating-icons">
+            <div class="floating-icon" title="Java">☕</div>
+            <div class="floating-icon" title="Spring Boot">🍃</div>
+            <div class="floating-icon" title="AWS">☁️</div>
+            <div class="floating-icon" title="Docker">🐳</div>
+            <div class="floating-icon" title="AI Tools">🤖</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Crafting Scalable <span class="highlight">Backend Systems</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a Principal Software Engineer based in Pune, India, with a passion for building robust, scalable backend architectures. Over 6.7+ years, I've honed my expertise in Java, Spring Boot, and Microservices, delivering systems that serve thousands of concurrent users with 99% uptime.
+          </p>
+          <p>
+            My approach combines deep technical expertise with a pragmatic mindset — leveraging AI-powered development tools like GitHub Copilot, Cursor IDE, and Claude AI to accelerate delivery without compromising quality. I believe in clean code, rigorous testing, and continuous improvement.
+          </p>
+          <p>
+            Beyond coding, I'm passionate about mentoring peers, conducting code reviews, and contributing to engineering best practices that elevate the entire team's productivity.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="icon">⚡</div>
+              <div class="value">99%</div>
+              <div class="label">System Uptime</div>
+            </div>
+            <div class="highlight-card">
+              <div class="icon">🧪</div>
+              <div class="value">95%</div>
+              <div class="label">Code Coverage</div>
+            </div>
+            <div class="highlight-card">
+              <div class="icon">🚀</div>
+              <div class="value">25%</div>
+              <div class="label">Latency Reduced</div>
+            </div>
+            <div class="highlight-card">
+              <div class="icon">🤖</div>
+              <div class="value">30%</div>
+              <div class="label">Faster with AI</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-info reveal">
+          <div class="info-item">
+            <div class="info-icon">📍</div>
+            <div>
+              <div class="info-label">Location</div>
+              <div class="info-value">Pune, India</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">💼</div>
+            <div>
+              <div class="info-label">Current Role</div>
+              <div class="info-value">Senior Product Engineer at Randstad</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📧</div>
+            <div>
+              <div class="info-label">Email</div>
+              <div class="info-value">roshan.sonone2011@gmail.com</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">📱</div>
+            <div>
+              <div class="info-label">Phone</div>
+              <div class="info-value">+91 9850546401</div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🔗</div>
+            <div>
+              <div class="info-label">LinkedIn</div>
+              <div class="info-value"><a href="https://linkedin.com/in/roshan-sonone-20a36816a" target="_blank" rel="noopener noreferrer">roshan-sonone</a></div>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">🎓</div>
+            <div>
+              <div class="info-label">Experience</div>
+              <div class="info-value">6.7+ Years</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Technical Skills</span>
+        <h2 class="section-title">Technologies & <span class="highlight">Expertise</span></h2>
+      </div>
+      <div class="skills-grid reveal-stagger">
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">💻</div>
+            <div class="skill-category-title">Languages</div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🏗️</div>
+            <div class="skill-category-title">Frameworks</div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Spring MVC</span>
+            <span class="skill-tag">Spring Core</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">JPA</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🎨</div>
+            <div class="skill-category-title">Frontend</div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">jQuery</span>
+            <span class="skill-tag">AJAX</span>
+            <span class="skill-tag">JSP</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🗄️</div>
+            <div class="skill-category-title">Databases</div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Oracle</span>
+            <span class="skill-tag">Sybase</span>
+            <span class="skill-tag">SQL Developer</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">☁️</div>
+            <div class="skill-category-title">Cloud & Infra</div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS SQS</span>
+            <span class="skill-tag">AWS SNS</span>
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">AWS Lambda</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Jenkins</span>
+            <span class="skill-tag">Spinnaker</span>
+            <span class="skill-tag">Redis</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🛠️</div>
+            <div class="skill-category-title">Tools & Concepts</div>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">System Design</span>
+            <span class="skill-tag">Design Patterns</span>
+            <span class="skill-tag">TDD</span>
+            <span class="skill-tag">DSA</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">JIRA</span>
+            <span class="skill-tag">Datadog</span>
+            <span class="skill-tag">Sumo Logic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Career Path</span>
+        <h2 class="section-title">Professional <span class="highlight">Experience</span></h2>
+      </div>
+      <div class="timeline">
+        <!-- Role 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Senior Product Engineer</div>
+                <div class="timeline-company">Randstad Enterprise</div>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">📅 Feb 2022 – Present</span>
+                <span class="timeline-location">📍 Pune, India</span>
+              </div>
+            </div>
+            <ul class="timeline-achievements">
+              <li>Architected and maintained 7+ robust backend microservices using Java 11 and Spring Boot, ensuring 99% uptime and scalability to handle 10,000+ concurrent users.</li>
+              <li>Leveraged AWS services (SQS, SNS, S3, Lambda) and JMS Listeners for asynchronous event-driven communication, reducing system latency by 25%.</li>
+              <li>Implemented API Rate Limiting on public-facing REST APIs, preventing abuse and maintaining high availability under peak traffic.</li>
+              <li>Achieved 95% code coverage by authoring 200+ unit and integration tests using JUnit 5 and Mockito, reducing production defects by 40%.</li>
+              <li>Monitored application performance using Datadog dashboards and Sumo Logic, proactively resolving bottlenecks and improving system response time by 50%.</li>
+              <li>Integrated GitHub Copilot and Cursor IDE into the workflow, reducing boilerplate generation time by ~30% and accelerating feature delivery.</li>
+              <li>Used Claude AI as an intelligent code review assistant for edge cases, test scenarios, and API documentation quality.</li>
+              <li>Collaborated with cross-functional frontend and QA teams in Agile/Scrum to deliver end-to-end features.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Java Developer</div>
+                <div class="timeline-company">Bureau Veritas</div>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date">📅 Sep 2019 – Feb 2022</span>
+                <span class="timeline-location">📍 Mumbai, India</span>
+              </div>
+            </div>
+            <ul class="timeline-achievements">
+              <li>Developed RESTful services using Java, Spring MVC/Boot, and integrated Hibernate for ORM — supporting complex business workflows for a maritime certification platform.</li>
+              <li>Built and maintained dynamic UI components using JSP, Ext.JS, and JavaScript, enhancing user productivity for surveyor workflows.</li>
+              <li>Increased test coverage to 85% by writing and maintaining JUnit test suites, contributing to a 20% reduction in defect rate.</li>
+              <li>Designed and implemented a custom exception handling framework, improving fault tolerance and system reliability.</li>
+              <li>Conducted systematic code reviews and refactored legacy modules to align with clean code principles, reducing technical debt.</li>
+              <li>Adopted GitHub Copilot in later sprints to assist with boilerplate code and repetitive patterns, improving individual sprint velocity.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Key <span class="highlight">Projects</span></h2>
+      </div>
+      <div class="projects-grid reveal-stagger">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-icon">🚀</div>
+          <div class="project-name">Risesmart Torch</div>
+          <div class="project-subtitle">Career Development Platform • Feb 2022 – Present</div>
+          <p class="project-description">
+            Multi-tenant career development and transition platform offering personalized coaching, skill assessments, and job search tools for enterprise clients.
+          </p>
+          <ul class="project-highlights">
+            <li>Implemented end-to-end bulk client upload functionality, reducing client onboarding time by 70%.</li>
+            <li>Led migration from monolith to a dedicated microservice, cutting deployment time by 60%.</li>
+            <li>Used AI code assistants (Copilot + Cursor) to accelerate microservice development, reducing estimated story points by ~20% per sprint.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="project-tech-tag">Java 11</span>
+            <span class="project-tech-tag">Spring Boot</span>
+            <span class="project-tech-tag">AWS</span>
+            <span class="project-tech-tag">Microservices</span>
+            <span class="project-tech-tag">Redis</span>
+            <span class="project-tech-tag">Docker</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-icon">🚢</div>
+          <div class="project-name">ASMS2</div>
+          <div class="project-subtitle">Advanced Ship Management System • Sep 2019 – Feb 2022</div>
+          <p class="project-description">
+            Surveyor-focused application for ship inspections and legally compliant maritime certification generation, ensuring regulatory adherence for safe navigation.
+          </p>
+          <ul class="project-highlights">
+            <li>Developed and delivered key features for surveyors including certification generation workflows and critical bug fixes.</li>
+            <li>Designed custom exception frameworks and contributed to system stability improvements across complex regulatory modules.</li>
+          </ul>
+          <div class="project-tech">
+            <span class="project-tech-tag">Java</span>
+            <span class="project-tech-tag">Spring MVC</span>
+            <span class="project-tech-tag">Hibernate</span>
+            <span class="project-tech-tag">JSP</span>
+            <span class="project-tech-tag">Ext.JS</span>
+            <span class="project-tech-tag">Oracle</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI TOOLS SECTION ===== -->
+  <section class="section" id="ai-tools">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">AI-Powered Development</span>
+        <h2 class="section-title">My AI <span class="highlight">Toolkit</span></h2>
+      </div>
+      <div class="ai-tools-grid reveal-stagger">
+        <div class="ai-tool-card">
+          <div class="ai-tool-icon">✨</div>
+          <div class="ai-tool-name">GitHub Copilot</div>
+          <p class="ai-tool-desc">Autocomplete-driven code generation for Java/Spring Boot boilerplate, unit test scaffolding, and REST controller patterns.</p>
+          <div class="ai-tool-metric">~30% faster coding</div>
+        </div>
+        <div class="ai-tool-card">
+          <div class="ai-tool-icon">⚡</div>
+          <div class="ai-tool-name">Cursor IDE</div>
+          <p class="ai-tool-desc">AI-powered editor for context-aware refactoring, inline documentation generation, and multi-file code navigation.</p>
+          <div class="ai-tool-metric">Reduced context-switching</div>
+        </div>
+        <div class="ai-tool-card">
+          <div class="ai-tool-icon">🧠</div>
+          <div class="ai-tool-name">Claude AI</div>
+          <p class="ai-tool-desc">Intelligent code review assistant for architecture brainstorming, API documentation, and edge-case test scenarios.</p>
+          <div class="ai-tool-metric">Improved code quality</div>
+        </div>
+        <div class="ai-tool-card">
+          <div class="ai-tool-icon">🎯</div>
+          <div class="ai-tool-name">Prompt Engineering</div>
+          <p class="ai-tool-desc">Proficient in crafting effective prompts to extract accurate, context-specific code suggestions from LLMs.</p>
+          <div class="ai-tool-metric">Precision-driven output</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS SECTION ===== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Impact</span>
+        <h2 class="section-title">Key <span class="highlight">Achievements</span></h2>
+      </div>
+      <div class="achievements-grid reveal-stagger">
+        <div class="achievement-card">
+          <div class="achievement-icon">⚡</div>
+          <div>
+            <div class="achievement-value">99%</div>
+            <div class="achievement-text">System uptime across 7+ microservices serving 10,000+ concurrent users</div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">🐛</div>
+          <div>
+            <div class="achievement-value">40%</div>
+            <div class="achievement-text">Reduced production bugs through TDD with 200+ test cases and 95% coverage</div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">🚀</div>
+          <div>
+            <div class="achievement-value">50%</div>
+            <div class="achievement-text">Improved system response time via proactive performance monitoring</div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">📦</div>
+          <div>
+            <div class="achievement-value">70%</div>
+            <div class="achievement-text">Cut client onboarding time through scalable bulk upload implementation</div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">🔄</div>
+          <div>
+            <div class="achievement-value">60%</div>
+            <div class="achievement-text">Reduced deployment time via monolith-to-microservice migration</div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">🤖</div>
+          <div>
+            <div class="achievement-value">30%</div>
+            <div class="achievement-text">Accelerated dev velocity using AI tools (Copilot, Cursor, Claude AI)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Education</span>
+        <h2 class="section-title">Academic <span class="highlight">Background</span></h2>
+      </div>
+      <div class="education-grid reveal-stagger">
+        <div class="education-card">
+          <div class="education-icon">🎓</div>
+          <div>
+            <div class="education-degree">PG Diploma in Advanced Computing</div>
+            <div class="education-school">Centre for Development of Advanced Computing (CDAC) — Mumbai</div>
+            <div class="education-year">July 2019</div>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="education-icon">🏛️</div>
+          <div>
+            <div class="education-degree">B.E. in Electronics & Telecommunication</div>
+            <div class="education-school">Sant Gadge Baba Amravati University — Amravati</div>
+            <div class="education-year">May 2018</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="highlight">Connect</span></h2>
+      </div>
+      <div class="contact-content reveal">
+        <p class="contact-description">
+          I'm always open to discussing new opportunities, interesting projects, or just having a conversation about backend architecture and AI-powered development.
+        </p>
+        <div class="contact-methods">
+          <a href="mailto:roshan.sonone2011@gmail.com" class="contact-method" id="contact-email">
+            <div class="contact-method-icon">📧</div>
+            <div class="contact-method-label">Email</div>
+            <div class="contact-method-value">roshan.sonone2011@gmail.com</div>
+          </a>
+          <a href="tel:+919850546401" class="contact-method" id="contact-phone">
+            <div class="contact-method-icon">📱</div>
+            <div class="contact-method-label">Phone</div>
+            <div class="contact-method-value">+91 9850546401</div>
+          </a>
+          <a href="https://linkedin.com/in/roshan-sonone-20a36816a" target="_blank" rel="noopener noreferrer" class="contact-method" id="contact-linkedin">
+            <div class="contact-method-icon">🔗</div>
+            <div class="contact-method-label">LinkedIn</div>
+            <div class="contact-method-value">roshan-sonone</div>
+          </a>
+        </div>
+        <div class="contact-cta">
+          <a href="mailto:roshan.sonone2011@gmail.com" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Send Me an Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        © 2024 Roshan Sonone. Built with <span class="heart">♥</span> and clean code.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="index.js"></script>
+
+</body>
+</html>
